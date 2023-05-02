@@ -9,7 +9,6 @@ let sum = (a, b) => a + b;
 
 let sayHi = () => console.log('hi!');
 
-
 sayHi();
 console.log(sum(1, 2));
 

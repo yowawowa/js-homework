@@ -6,16 +6,16 @@
 
 // синтаксис для работы с классами
 
-class User {                                                // ключевое слово и название
-    constructor(name, surname) {                            // метод, который будет вызван автоматически при создании нового объекта данного класса
+class User {                                                    // ключевое слово и название
+    constructor(name, surname) {                                // метод, который будет вызван автоматически при создании нового объекта данного класса
         this.name = name;
         this.surname = surname;
     }
 
-    introduce() {                                           // дополнительный метод класса
+    intro() {                                                   // дополнительный метод класса
         console.log(`I'm ${this.name} ${this.surname}!`)
     }
 }
 
-let user = new User('Michael', 'Keen');     // создание объекта класса User
-user.introduce();                                         // вызов метода у объекта
+let user = new User('Michael', 'Keen');         // создание объекта класса User
+user.intro();                                                // вызов метода у объекта

@@ -5,7 +5,7 @@ let user = {
     _name: '',
     surname: 'Magpie',
 
-    get fullname() {
+    get fullName() {
         return this.name + ' ' + this.surname
     },
 
@@ -28,4 +28,4 @@ let user = {
 }
 
 user.setName = 'Simon';
-console.log(user.fullname);
+console.log(user.fullName);

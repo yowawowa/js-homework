@@ -11,11 +11,11 @@ function pow(number, power) {
 
 console.log(pow(2, 3));
 
-function powRec(number, power) {
-    return (power === 1) ? number : number * powRec(number, power - 1);
+function powRecursive(number, power) {
+    return (power === 1) ? number : number * powRecursive(number, power - 1);
 }
 
-console.log(powRec(2, 3));
+console.log(powRecursive(2, 3));
 
 // не понимаю как показать что всё написано с нуля, но в восьмом уроке уже есть пример рекурсивной функции 🤔
 

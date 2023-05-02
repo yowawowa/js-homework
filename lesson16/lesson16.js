@@ -6,7 +6,7 @@
 let user = {
     age: 21,
     name: 'john',
-    isAdmin: true,
+    isAdmin: false,
 }
 
 let string = JSON.stringify(user); // конвертирование объекта в строку JSON
@@ -30,7 +30,7 @@ let str = '{"age":20, "name":"pepe"}'
 obj2 = JSON.parse(str);
 console.log(obj2);
 
-/* JSON поддерживает строки, числа, массивы, булев тип, null, объекты
+/* JSON поддерживает: строки, числа, массивы, булев тип, null, объекты
 не может быть функцией, датой, undefined
 */
 
